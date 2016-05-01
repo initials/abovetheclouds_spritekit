@@ -16,6 +16,7 @@
 		4C8F110C1CD5D0B4004E30B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8F110A1CD5D0B4004E30B7 /* LaunchScreen.storyboard */; };
 		4C8F11171CD5D0B4004E30B7 /* abovethecloudsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F11161CD5D0B4004E30B7 /* abovethecloudsTests.swift */; };
 		4C8F11221CD5D0B4004E30B7 /* abovethecloudsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F11211CD5D0B4004E30B7 /* abovethecloudsUITests.swift */; };
+		4C8F11301CD5D999004E30B7 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F112F1CD5D999004E30B7 /* Plane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4C8F111D1CD5D0B4004E30B7 /* abovethecloudsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = abovethecloudsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8F11211CD5D0B4004E30B7 /* abovethecloudsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abovethecloudsUITests.swift; sourceTree = "<group>"; };
 		4C8F11231CD5D0B4004E30B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8F112F1CD5D999004E30B7 /* Plane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				4C8F11081CD5D0B4004E30B7 /* Assets.xcassets */,
 				4C8F110A1CD5D0B4004E30B7 /* LaunchScreen.storyboard */,
 				4C8F110D1CD5D0B4004E30B7 /* Info.plist */,
+				4C8F112F1CD5D999004E30B7 /* Plane.swift */,
 			);
 			path = abovetheclouds;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				4C8F11021CD5D0B4004E30B7 /* GameScene.swift in Sources */,
 				4C8F11041CD5D0B4004E30B7 /* GameViewController.swift in Sources */,
+				4C8F11301CD5D999004E30B7 /* Plane.swift in Sources */,
 				4C8F10FE1CD5D0B4004E30B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
